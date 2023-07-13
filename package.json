@@ -1,0 +1,15 @@
+{
+  "name": "otus-git",
+  "version": "1.0.0",
+  "description": "Test project for Otus",
+  "main": "src/tale.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "kosenko.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.1"
+  }
+}

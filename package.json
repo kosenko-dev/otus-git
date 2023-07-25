@@ -4,12 +4,19 @@
   "description": "Test project for Otus",
   "main": "src/tale.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest ",
     "coverage": "jest --coverage"
   },
   "author": "kosenko.dev@gmail.com",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "jest": "^29.6.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.12"
   }
 }
